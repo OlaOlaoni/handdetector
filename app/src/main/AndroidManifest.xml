@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="ai.ola0x.handdetection">
 
+    <uses-sdk />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,8 +15,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Handdetection">
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".DetectorActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

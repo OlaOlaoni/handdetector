@@ -95,10 +95,6 @@ public abstract class CameraActivity extends AppCompatActivity
   private SwitchCompat apiSwitchCompat;
   private TextView threadsTextView;
 
-  private static final int MIN_STALE_SILENT_DURATION = 3000;
-  private long lastSpokenTimeStamp = 0;
-  private static final float MINIMUM_CONFIDENCE = 0.7f;
-
   @Override
   protected void onCreate(final Bundle savedInstanceState) {
     LOGGER.d("onCreate " + this);

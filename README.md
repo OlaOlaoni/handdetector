@@ -17,3 +17,6 @@ Registry: external.system.auto.import.disabled=true
 Non-Bundled Plugins: org.intellij.plugins.markdown
 * Gradle 7.0.2
 * Tensorflow-lite-task-vision:0.3.0
+
+### Download apk
+(APK)[/apk]
